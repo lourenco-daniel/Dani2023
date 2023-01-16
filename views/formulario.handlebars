@@ -1,7 +1,41 @@
-<main>
-    <form>
+<header id="cabecalho"><h1>The Shield</h1></header>
+<main class="container">
+    <img id="redLobo" src="/img/redLobo.png">
+    <form name="form1" id="formulario" action="controllerForm" method="post">
         <fieldset>
-            
+            <div class="campo">
+                <label for="nome">Nome: </label><br>
+                <input name="nome" class="entradas" id="nome" type="text" required placeholder="Informe seu nome">
+            </div>
+            <div class="campo">
+                <label for="sobrenome">Sobrenome: </label><br>
+                <input name="sobrenome" class="entradas" id="sobrenome" type="text" required placeholder="Informe seu sobrenome">
+            </div>
+            <div class="campo">
+                <label for="usuario">Usuário: </label><br>
+                <input name="usuario" class="entradas"id="usuario" required placeholder="Digite seu usuário">
+            </div>
+        </fieldset>
+        <fieldset class="grupo2">
+            <div class="campo">
+                <label for="email">Email: </label><br>
+                <input name="email" class="entradas"id="email" type="email" required placeholder="Digite seu e-mail">
+            </div>
+            <div class="campo">
+                <label for="password">Senha: </label><br>
+                <input name="senha" class="entradas" id="password" type="password" required placeholder="Digite sua senha">
+            </div>
+            <div class="campo">
+                <label for="password_confirm">Confirme sua senha: </label><br>
+                <input name="confirmar_senha" class="entradas" id="password_confirm" type="password" required placeholder="Confirme sua senha">
+            </div>
+            <div>
+                <button id="button" type="submit">Cadastre-se</button>
+            </div>
         </fieldset>
     </form>
 </main>
+
+<footer id="rodape">
+    The Shield
+</footer>

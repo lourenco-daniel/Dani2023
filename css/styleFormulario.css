@@ -1,3 +1,160 @@
-.qualquer{
-    color: aquamarine;
+@import 'reset.css';
+@import url("https://use.typekit.net/hhn0muf.css");
+
+#cabecalho {
+    position: relative;
+    background-color:#f0f2f5;
+    color: #c22f2f;
+    text-align: left;
+    padding: 40px;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#redLobo {
+    position: absolute;
+    width: 500px;
+    top: 20%;
+    left: 16%;
+}
+
+#formulario {
+    width: 500px;
+    height: 580px;
+    padding: 30px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    background-color:#ffffff;
+    color: #121214;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+label {
+    position: relative;
+    left: 15%;
+    color: #121214;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.entradas {
+    position: relative;
+    width: 310px;
+    margin: 10px;
+    padding: 10px;
+    left: 12%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: poppins,sans-serif;
+    font-style: normal;
+    border: 1px solid #dddfe2;
+}
+
+#paragrafo {
+    position: relative;
+    margin-top: 2%;
+    left: 3.5%;
+    color: #39af6e;
+    padding: 10px;
+    font-size: 75px;
+}
+
+#button {
+    position: relative;
+    left: 8%;
+    margin: 30px;
+    padding: 10px;
+    width: 308px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #c22f2f;
+    color: #f0f2f5;
+    font-family: poppins,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+#button:hover {
+    background-color: #e92020;
+    color: #ffffff;
+    transition: all 0.5s ease-in;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+#rodape {
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    text-align: center;
+    padding: 40px;
+    background-color: #f0f2f5;
+    color: #c22f2f;
+    font-family: poppins,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+ @media screen and (max-width: 1629px){
+    .phrase{
+        top:10%;
+        margin: auto;
+    }
+    #formulario{
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 1800px){
+   .phrase{
+    top: 27%;
+    left: 5%;
+    margin: 0 auto;
+   }
+}
+
+@media screen and (max-width: 1280px){
+    .phrase{
+        top: 30%;
+        font-size: 20px
+    }
+    #paragrafo{
+        font-size: 60px;
+    }
+    #formulario {
+        left: 55%;
+    }
+ }
+
+ @media screen and (max-width: 1135px){
+    .phrase{
+        font-size: 15px
+    }
+    #paragrafo{
+        font-size: 45px;
+    }
+    #formulario {
+        left: 50%;
+    } 
+ }
+
+ @media screen and (max-width: 1003px){
+    .phrase{
+        
+        top: 2%;
+        left: 30%;
+        font-size: 15px;
+    }
+    #paragrafo{
+        font-size: 45px;
+    }
+    #formulario {
+        top: 30%;
+        left: 30%;
+    } 
 }

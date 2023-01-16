@@ -1,0 +1,45 @@
+.login{
+    position: relative;
+    top: 15%;
+    width: 310px;
+    padding: 10px;
+    left: 0%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #f0f2f5;
+    font-family: poppins,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#imgLogin{
+    position: absolute;
+    left: 16%;
+    top: 20%
+}
+#esqueceuSenha{
+    position: relative;
+    left: 35%;
+    color: #1877f2
+}
+#criarConta{
+    position: absolute;
+    margin-top: 8%;
+    left: 38%;
+    background-color: #000000;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    text-overflow: inherit;
+    border: 0;
+    border-radius: 5px;
+    color: #c22f2f;
+
+    padding: 14px 20px 30px;
+    text-decoration: none;
+    display: inline-block;
+    
+
+
+}
