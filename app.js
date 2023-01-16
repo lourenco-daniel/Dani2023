@@ -9,7 +9,7 @@ const urlencodeParser = bodyParser.urlencoded({extended:false})
 const sql=mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "",
+    password: "theshield@2023",
     port: 3306,
     database: "cadastro"
 })
@@ -32,8 +32,8 @@ app.get("/formulario", (req, res) => {
 })
 
 app.post("/controllerForm", urlencodeParser, (req, res)=>{
-    sql.query("insert into lourencliente values (?, ?, ?, ?, ?, ?)", [req.body.nome, req.body.sobrenome, req.body.usuario,
-    req.body.email, req.body.password, req.body.password_confirm])
+    sql.query("insert into users (nome, sobrenome, usuario, email, senha, confirmar_senha) values (?, ?, ?, ?, ?, ?)", [req.body.nome, req.body.sobrenome, req.body.usuario,
+    req.body.email, req.body.senha, req.body.confirmar_senha])
     res.render("controllerForm")
 })
 

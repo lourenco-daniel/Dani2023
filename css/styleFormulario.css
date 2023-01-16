@@ -129,6 +129,10 @@ label {
     #formulario {
         left: 55%;
     }
+    .login{
+        position: relative;
+        width: 200px;
+    }
  }
 
  @media screen and (max-width: 1135px){
